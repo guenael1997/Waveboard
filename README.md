@@ -1,3 +1,3 @@
-# WAVEBOARD_STARTING_FILES
+# WAVEBOARD
 
-SOCKET IO PROJECT NAMED WAVEBOARD STARTING FILES FOR MY STUDENTS.
+Waveboard is an app where you can Draw things and send messages, based on Socket.IO and node.js
