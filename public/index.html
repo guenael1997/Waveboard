@@ -34,7 +34,7 @@
         </div>
         <div class="chatBody" id="chatB"></div>
 
-        <form action="">
+        <form action="" id="form2">
             <input type="text" class="msgBox" id="txtChatMsg">
             <button id="btnSend" title="Send" class="btn"></button>
         </form>
@@ -43,9 +43,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+      </script>
     <script src="script.js"></script>
     <script src="chat.js"></script>
     <script src="board.js"></script>
+
 </body>
 
 </html>
